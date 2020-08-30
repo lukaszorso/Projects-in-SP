@@ -1,4 +1,5 @@
 # Projects-in-SP
 
-#Creating new items in parallel in the SharePoint platform project
-
+#test_HEA - Creating new items in parallel in the SharePoint platform project
+#test_booking_chrome - adding a new request
+#driver_factory - utils with browsers
