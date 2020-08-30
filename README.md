@@ -1,3 +1,4 @@
 # Projects-in-SP
 
-#Creating new item in the SharePoint platform project
+#Creating new items in parallel in the SharePoint platform project
+
