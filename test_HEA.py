@@ -10,7 +10,7 @@ import allure
 
 class TestAddingOrders(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome(r"C:\Users\Public\Apps\Python_MAIN\.wdm\drivers\chromedriver\chromedriver.exe")
+        self.driver = webdriver.Chrome(r"")
         self.driver.implicitly_wait(30)
         self.driver.maximize_window()
         #before_failed = request.session.testfailed
