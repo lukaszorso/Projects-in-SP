@@ -17,7 +17,6 @@ class TestBookingVisit(unittest.TestCase):
     #@pytest.fixture()
     def setUp(self):
         self.driver = DriverFactory.get_driver("chrome")
-            #webdriver.Chrome(r"C:\Users\Public\Apps\Python_MAIN\.wdm\drivers\chromedriver\chromedriver.exe")
         self.driver.implicitly_wait(30)
         self.driver.maximize_window()
 
@@ -99,7 +98,6 @@ class TestBookingVisit(unittest.TestCase):
         driver.find_element_by_xpath(
             "/html/body/div[1]/div/div/div/div[3]/div/div/div[5]/div/div/div/div/div/div/div/div/div[3]/div/div/div/div[3]/div/div/div/div[1]/div[2]").click()
         driver.find_element_by_xpath("/html/body/div[1]/div/div/div[2]/div/div/ul/li[4]").click()
-        # time.sleep(5)
         driver.find_element_by_xpath(
             "/html/body/div[1]/div/div/div/div[3]/div/div/div[5]/div/div/div/div/div/div/div/div/div[4]/div/div/div/div[4]/div/div/div/div[1]/div[2]").click()
         driver.find_element_by_xpath("/html/body/div[1]/div/div/div[2]/div/div/ul/li[3]").click()
